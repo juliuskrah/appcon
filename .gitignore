@@ -21,6 +21,9 @@ build/
 bld/
 [Bb]in/
 [Oo]bj/
+launch.json
+tasks.json
+*.min.*
 
 # Visual Studio 2015 cache/options directory
 .vs/
