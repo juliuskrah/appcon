@@ -4,6 +4,23 @@ We've made some big updates in this release, so it’s **important** that you sp
 
 You've created a new ASP.NET Core project. [Learn what's new](https://go.microsoft.com/fwlink/?LinkId=518016)
 
+## Pre requisites
+
+1. [ASP core][Aspcore]
+2. [Git][]
+2. [Bower][]
+
+## Getting Started
+
+1. `git clone https://github.com/juliuskrah/appcon.git`  
+2. `cd appcon`  
+3. `bower install`  
+4. `dotnet restore`  
+5. `dotnet ef database update`  
+6. `dotnet run`  
+
+Now access your application on [localhost:5000](http://localhost:5000)
+
 ## This application consists of:
 
 *   Sample pages using ASP.NET Core MVC
@@ -58,3 +75,7 @@ To assist with menu highlighting depending on the route, a MenuLinkTagHelper cla
 *   [Publish to Microsoft Azure Web Apps](https://go.microsoft.com/fwlink/?LinkID=398609)
 
 We would love to hear your [feedback](https://go.microsoft.com/fwlink/?LinkId=518015)
+
+[Bower]: https://bower.io/#install-bower
+[Aspcore]: https://go.microsoft.com/fwlink/?LinkID=827546
+[Git]: https://git-scm.com/downloads
